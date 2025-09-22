@@ -1,0 +1,391 @@
+[
+
+  {
+    "title": "BeHealthy - Medical Camp Management System (MCMS)",
+    "imageURL": "https://i.ibb.co.com/qRzywLq/Pediatric-check-up.jpg",
+    "description": "BeHealthy aims to simplify organizing and participating in medical camps for both administrators and users. It offers features such as managing camps, participant registration, payments, and communication, ensuring a seamless user experience.",
+    "liveLink": "https://be-healthy-by-mostafiz.netlify.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/Be_Healthy_Client_Side",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/Be_Healthy_Server_Side",
+    "details": {
+      "techStack": [
+        "React (Vite)",
+        "TailwindCSS",
+        "Material UI",
+        "DaisyUI",
+        "TanStack Query",
+        "React Router DOM",
+        "Lottie React",
+        "Axios",
+        "Chart.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Firebase",
+        "Stripe",
+        "Cookie-parser"
+      ],
+      "briefDescription": {
+        "overview": "BeHealthy is a Medical Camp Management System designed for seamless organization and participation in medical camps.",
+        "focus": "Ensures an intuitive and efficient experience for managing medical camps, participant registration, payments, and admin communication.",
+        "features": [
+          "Admin Dashboard with graphical analytics",
+          "User registration and profile management",
+          "Camp management with participant approval system",
+          "Secure payment integration via Stripe",
+          "Interactive user engagement through articles, comments, and likes",
+          "Dark mode support"
+        ]
+      },
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Camps, Dashboard (Protected), Articles",
+            "Login/Register (Conditional)",
+            "User Avatar with Profile options",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner with featured camps",
+            "Popular Camps section",
+            "Top Participants showcase",
+            "Recent Articles section"
+          ],
+          "footer": [
+            "Contact Information",
+            "Social Media Links",
+            "Privacy Policy and Terms of Service"
+          ]
+        },
+        "keyPages": {
+          "loginPage": "User authentication via email/password and Google sign-in.",
+          "registerPage": "User signup with role selection (Admin, Moderator, Member).",
+          "adminDashboard": "Graphical data on camps, participants, and payments.",
+          "addCampPage": "Admins can add new medical camps with all necessary details.",
+          "manageCampsPage": "Edit or delete existing camps.",
+          "manageParticipantsPage": "Approve, reject, or update participant status.",
+          "allUsersPage": "Admins can manage user roles and delete users.",
+          "userDashboard": "Users can view their joined camps and activity.",
+          "paymentPage": "Secure Stripe integration for camp registration fees.",
+          "articlesPage": "Users can read, like, and comment on articles.",
+          "contactPage": "A dedicated contact form for inquiries."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Displays loading status for API requests.",
+          "themeToggle": "Dark/Light mode switch.",
+          "sortAndFilter": "Users can sort and filter camps based on location, date, and availability."
+        }
+      },
+      "challengesFaced": [
+        "Implementing secure and seamless Stripe payments.",
+        "Handling role-based access control effectively."
+      ],
+      "improvements": [
+        "Adding AI-based health recommendations for participants.",
+        "Enhancing the UI with better interactive elements."
+      ]
+    }
+  },
+  
+  {
+    "title": "Chill Gamer",
+    "imageURL": "https://chillgamerbymostafiz.netlify.app/assets/banner6-Dk_6FdBX.jpeg",
+    "description": "Chill Gamer is a user-friendly game review platform designed to allow users to explore and share game reviews. This project includes user authentication, review management, and dynamic content features.",
+    "liveLink": "https://chillgamerbymostafiz.netlify.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/Chill_Gamer_client_side_new",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/Chill_gamer_server_side",
+    "details": {
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+      "briefDescription": {
+        "overview": "Chill Gamer is a user-friendly game review platform designed to allow users to explore and share game reviews.",
+        "focus": "Provides an intuitive and 'chill' experience for users to engage with game reviews, ratings, and watchlists.",
+        "features": [
+          "User authentication",
+          "Review management",
+          "Dynamic content features"
+        ]
+      },
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, All Reviews, Add Review (Protected), My Reviews (Protected), Game Watchlist (Protected)",
+            "Login/Register (Conditional)",
+            "User Avatar (Profile photo with name tooltip)",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner/slider",
+            "Highest Rated Games section (6 cards with ratings, 'Explore Details' button)",
+            "2 extra meaningful sections (dynamic data from MongoDB)"
+          ],
+          "footer": ["Relevant footer information"]
+        },
+        "keyPages": {
+          "loginPage": "Email/password authentication with Google/GitHub login.",
+          "registerPage": "User registration with email, password, and name.",
+          "addReviewPage": "Submit game reviews (game name, cover image, rating, description, etc.).",
+          "reviewDetailsPage": "Displays review details with 'Add to Watchlist' functionality.",
+          "allReviewsPage": "Lists all reviews with sorting/filtering options by rating, year, and genre.",
+          "myReviewsPage": "Shows reviews submitted by the logged-in user with update and delete options.",
+          "updateReviewPage": "Allows users to edit previously submitted reviews.",
+          "gameWatchlistPage": "A private page for users to view/manage games in their personal watchlist."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Displays loading status.",
+          "themeToggle": "Dark/Light theme toggle.",
+          "sortAndFilter": "Sort reviews by rating or year, filter by genres."
+        }
+      },
+      "challengesFaced": [
+        "Handling large data for game reviews efficiently.",
+        "Implementing real-time updates for user interactions."
+      ],
+      "improvements": [
+        "Adding a recommendation engine for personalized game suggestions.",
+        "Integrating social sharing features."
+      ]
+    }
+  },
+  {
+    "title": "Humanity",
+    "imageURL": "https://familypromisecarteret.org/wp-content/uploads/2015/03/url-14.jpeg",
+    "description": "This project is a user-friendly platform for volunteer management, enabling users to create, update, and delete volunteer need posts.",
+    "liveLink": "https://humanity-by-mostafiz.netlify.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/volunteer-management-humanity-client-side",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/volunteer-management-humanity-server-side",
+    "details": {
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+      "briefDescription": "A volunteer management platform for creating and fulfilling volunteer needs.",
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Volunteer Posts, Add Post (Protected), My Posts (Protected)",
+            "Login/Register (Conditional)",
+            "User Avatar (Profile photo with name tooltip)",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner highlighting volunteer opportunities",
+            "Featured posts section showcasing urgent volunteer needs",
+            "Easy navigation to add or manage posts"
+          ],
+          "footer": ["Social media links, contact details, and site credits"]
+        },
+        "keyPages": {
+          "loginPage": "Email/password authentication with Firebase.",
+          "registerPage": "Allows new users to sign up.",
+          "addPostPage": "Enables users to create a new volunteer post with title, description, and image.",
+          "volunteerPostsPage": "Displays all volunteer posts with search and filter options.",
+          "myPostsPage": "Shows all posts created by the logged-in user with update and delete options."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Displays loading state for data-heavy pages.",
+          "themeToggle": "Dark/Light theme toggle.",
+          "notifications": "Real-time notifications for new volunteer opportunities."
+        }
+      },
+      "challengesFaced": [
+        "Designing an intuitive UI for managing volunteer needs.",
+        "Implementing efficient user role management."
+      ],
+      "improvements": [
+        "Adding a feature to track volunteer responses.",
+        "Integrating calendar functionality for scheduling events."
+      ]
+    }
+  },
+  {
+    "title": "CafeBarisal - Modern Café Management System",
+    "imageURL": "https://cafebarisal-by-mostafiz.netlify.app/assets/banner1-DjjQBdjB.jpg",
+    "description": "CafeBarisal is an interactive café management system that allows admins to manage items and users to browse, purchase, and review products. The platform includes a dynamic dashboard, secure payment options, and a user-friendly experience.",
+    "liveLink": "https://cafebarisal-by-mostafiz.netlify.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/CafeBarisal-client-side",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/cafeBarisal-server-side",
+    "details": {
+      "techStack": [
+        "React (Vite)",
+        "TailwindCSS",
+        "DaisyUI",
+        "Material UI",
+        "@tanstack/react-query",
+        "React Router DOM",
+        "Lottie React",
+        "Axios",
+        "Chart.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Firebase",
+        "Stripe",
+        "SSLCommerz",
+        "Cookie-parser"
+      ],
+      "briefDescription": {
+        "overview": "CafeBarisal is a café management system designed to simplify item management, user interaction, and online purchases.",
+        "focus": "Provides a seamless café experience with an interactive UI, secure payment integration, and a fully responsive design.",
+        "features": [
+          "Admin dashboard for café management",
+          "User dashboard for order tracking",
+          "Secure checkout with Stripe & SSLCommerz",
+          "Review system for customer feedback",
+          "Dark mode toggle",
+          "Real-time updates and notifications"
+        ]
+      },
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Menu, Dashboard (Protected), Reviews",
+            "Login/Register (Conditional)",
+            "User Avatar with Profile options",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner showcasing café specials",
+            "Featured items section",
+            "Customer reviews section",
+            "Recent orders section"
+          ],
+          "footer": [
+            "Contact Information",
+            "Social Media Links",
+            "Privacy Policy and Terms of Service"
+          ]
+        },
+        "keyPages": {
+          "loginPage": "User authentication via email/password and Google sign-in.",
+          "registerPage": "User signup with profile details.",
+          "adminDashboard": "Graphical representation of sales, orders, and items.",
+          "addItemPage": "Admins can add new menu items.",
+          "manageItemsPage": "Edit or delete café menu items.",
+          "userDashboard": "Users can view orders, cart, and payment history.",
+          "cartPage": "Users can add, remove, and update cart items.",
+          "paymentPage": "Secure Stripe & SSLCommerz payment integration.",
+          "reviewsPage": "Users can submit and view café reviews.",
+          "profilePage": "Users can update personal details."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Displays loading status for API requests.",
+          "themeToggle": "Dark/Light mode switch.",
+          "sortAndFilter": "Users can sort and filter menu items."
+        }
+      },
+      "challengesFaced": [
+        "Implementing multi-payment gateway integration.",
+        "Ensuring real-time cart and order updates."
+      ],
+      "improvements": [
+        "Adding AI-based product recommendations.",
+        "Enhancing the UI with better interactive animations."
+      ]
+    }
+  }
+,  
+  {
+    "title": "Job Seeker",
+    "imageURL": "https://img.freepik.com/premium-vector/job-seeker-illustration-concept_225067-151.jpg",
+    "description": "A Full Stack Job-Seeking Website designed to streamline the process of connecting job seekers with potential employers.",
+    "liveLink": "https://job-seeker-by-mostafiz.netlify.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/job_seeker",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/job_seeker_server_side",
+    "details": {
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+      "briefDescription": "A job-seeking platform connecting employers with potential candidates.",
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Jobs, Post Job (Protected), My Jobs (Protected)",
+            "Login/Register (Conditional)",
+            "User Avatar (Profile photo with name tooltip)",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Featured job openings displayed dynamically",
+            "Job categories for quick navigation",
+            "Search bar for finding specific jobs"
+          ],
+          "footer": ["Social media links, company information, and contact details"]
+        },
+        "keyPages": {
+          "loginPage": "Email/password authentication with Firebase.",
+          "registerPage": "Allows new users to sign up.",
+          "postJobPage": "Enables employers to create job postings.",
+          "jobDetailsPage": "Displays detailed job information with an 'Apply Now' option.",
+          "myJobsPage": "Lists jobs posted by the logged-in employer with options to update or delete."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Indicates data loading state.",
+          "sortingAndFiltering": "Filter jobs by location, experience, and skills."
+        }
+      },
+      "challengesFaced": [
+        "Creating an efficient filtering and sorting mechanism for job searches.",
+        "Ensuring data consistency between employer and job seeker interactions."
+      ],
+      "improvements": [
+        "Integrating video interview scheduling functionality.",
+        "Enhancing the search algorithm for better accuracy."
+      ]
+    }
+  },
+  {
+    "title": "Coffee House",
+    "imageURL": "https://www.sliderrevolution.com/wp-content/uploads/2021/10/Cafenod.jpg",
+    "description": "A comprehensive Full Stack Express and Node.js project named Coffee House, where users can perform Create, Read, Update, and Delete (CRUD) operations seamlessly. This project also integrates user authentication to ensure secure access.",
+    "liveLink": "https://coffee-house-f229b.web.app/",
+    "githubLink_client_side": "https://github.com/MostafizurRahman199/coffee_house_client",
+    "githubLink_server_side": "https://github.com/MostafizurRahman199/coffee_house_server_side",
+    "details": {
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+      "briefDescription": "A full-stack application focusing on CRUD operations and user authentication for managing coffee shop services.",
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Menu, Add Coffee (Protected), Update Coffee (Protected)",
+            "Login/Register (Conditional)",
+            "User Avatar (Profile photo with name tooltip)",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner showcasing coffee collections",
+            "Popular coffee items section",
+            "Quick links to manage coffee inventory"
+          ],
+          "footer": ["Contact details, social media links, and site map"]
+        },
+        "keyPages": {
+          "loginPage": "Email/password authentication with Firebase.",
+          "registerPage": "User registration for secure access.",
+          "addCoffeePage": "Allows users to add coffee details (name, price, description, image).",
+          "updateCoffeePage": "Enables users to update existing coffee details.",
+          "menuPage": "Displays all available coffee items dynamically."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Indicates data loading status.",
+          "themeToggle": "Dark/Light theme toggle.",
+          "crudOperations": "Full CRUD functionality for managing coffee items."
+        }
+      },
+      "challengesFaced": [
+        "Integrating Firebase authentication with React and Express.",
+        "Optimizing backend APIs for faster data retrieval."
+      ],
+      "improvements": [
+        "Adding a real-time order management system.",
+        "Enhancing UI for better customer experience."
+      ]
+    }
+  }
+]

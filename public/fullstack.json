@@ -1,0 +1,53 @@
+[
+
+  {
+    "title": "Coffee House",
+    "imageURL": "https://www.sliderrevolution.com/wp-content/uploads/2021/10/Cafenod.jpg",
+    "description": "A comprehensive Full Stack Express and Node.js project named Coffee House, where users can perform Create, Read, Update, and Delete (CRUD) operations seamlessly. This project also integrates user authentication to ensure secure access.",
+    "liveLink": "https://coffee-house-f229b.web.app/",
+    "githubLink_client_side": "https://github.com/imon130307/coffee-house-client-side",
+    "githubLink_server_side": "https://github.com/imon130307/coffee-house-server-side",
+    "details": {
+      "techStack": ["React", "Node.js", "Express", "MongoDB", "Firebase"],
+      "briefDescription": "A full-stack application focusing on CRUD operations and user authentication for managing coffee shop services.",
+      "detailedDescription": {
+        "layout": {
+          "navbar": [
+            "Website name/logo",
+            "Home, Menu, Add Coffee (Protected), Update Coffee (Protected)",
+            "Login/Register (Conditional)",
+            "User Avatar (Profile photo with name tooltip)",
+            "Logout (for logged-in users)"
+          ],
+          "homePage": [
+            "Dynamic banner showcasing coffee collections",
+            "Popular coffee items section",
+            "Quick links to manage coffee inventory"
+          ],
+          "footer": ["Contact details, social media links, and site map"]
+        },
+        "keyPages": {
+          "loginPage": "Email/password authentication with Firebase.",
+          "registerPage": "User registration for secure access.",
+          "addCoffeePage": "Allows users to add coffee details (name, price, description, image).",
+          "updateCoffeePage": "Enables users to update existing coffee details.",
+          "menuPage": "Displays all available coffee items dynamically."
+        },
+        "additionalFeatures": {
+          "404Page": "Custom 'Not Found' page for invalid URLs.",
+          "loadingSpinner": "Indicates data loading status.",
+          "themeToggle": "Dark/Light theme toggle.",
+          "crudOperations": "Full CRUD functionality for managing coffee items."
+        }
+      },
+      "challengesFaced": [
+        "Integrating Firebase authentication with React and Express.",
+        "Optimizing backend APIs for faster data retrieval."
+      ],
+      "improvements": [
+        "Adding a real-time order management system.",
+        "Enhancing UI for better customer experience."
+      ]
+    }
+  }
+]

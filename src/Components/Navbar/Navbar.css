@@ -1,0 +1,11 @@
+.transition-all {
+    transition: all 0.8s ease-in-out;
+  }
+  
+  .max-h-0 {
+    max-height: 0;
+  }
+  
+  .max-h-screen {
+    max-height: 100vh; /* Adjust as needed */
+  }
