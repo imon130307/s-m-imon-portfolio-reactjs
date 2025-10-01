@@ -21,8 +21,8 @@ const Navbar = () => {
     setIsLoading(true);
     const link = document.createElement("a");
     // link.href ="https://drive.google.com/file/d/1HFMV8eGlCaM2cHgXyDlwbghhlb6L4OLm/view?usp=sharing";
-    link.href ="/resume-of-imon.pdf"; // URL of the PDF file
-    link.download = "Resume.pdf"; // Name of the file to download
+    link.href ="/ResumeOfMohammadImon.pdf"; // URL of the PDF file
+    link.download = "Resume_of_MOHAMMAD_IMON.pdf"; // Name of the file to download
     link.click();
 
     // Simulate loading state for 2 seconds
