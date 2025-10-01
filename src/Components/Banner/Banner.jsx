@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../../../public/imon3.JPG";
+import profile from "../../../public/imon6.PNG";
 import { Spinner } from "@material-tailwind/react";
 
 const Banner = () => {
@@ -14,8 +14,8 @@ const Banner = () => {
     setIsLoading(true);
     const link = document.createElement("a");
     // link.href ="https://drive.google.com/file/d/117AstRohU1cFaP0hCRgz7GtvYcnhLaPs/view?usp=sharing";
-    link.href ="../../../public/ResumeOfMohammadImon.pdf"; // URL of the PDF file
-    link.download = "Resume.pdf"; // Name of the file to download
+    link.href ="/ResumeOfMohammadImon.pdf"; // URL of the PDF file
+    link.download = "Resume_of_MOHAMMAD_IMON.pdf"; // Name of the file to download
     link.click();
 
     // Simulate loading state for 2 seconds
