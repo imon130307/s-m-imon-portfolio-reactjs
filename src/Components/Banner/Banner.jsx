@@ -3,17 +3,18 @@ import { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../../../public/imon1.JPG";
+import profile from "../../../public/imon3.JPG";
 import { Spinner } from "@material-tailwind/react";
 
 const Banner = () => {
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleDownload = () => {
+  const handleDownload = (event) => {
+    event.preventDefault(); // Prevent default navigation
     setIsLoading(true);
     const link = document.createElement("a");
-    link.href =
-      "https://drive.google.com/uc?export=download&id=1oDDf2DIQJVCBku822nwQiQkgy2oN9GJ4";
+    // link.href ="https://drive.google.com/file/d/1HFMV8eGlCaM2cHgXyDlwbghhlb6L4OLm/view?usp=sharing";
+    link.href ="/resume-of-imon.pdf"; // URL of the PDF file
     link.download = "Resume.pdf"; // Name of the file to download
     link.click();
 
@@ -82,13 +83,13 @@ const Banner = () => {
             your digital presence.
           </motion.p> */}
 
-          {/* Resume Button */}
+          {/*------ Resume Button------- */}
 
-          {/* Social Media Links */}
+          {/* ----Social Media Links -----*/}
           <div className="flex flex-col gap-8">
             <div className="flex flex-col items-center gap-4">
               {/* <a
-              href="https://drive.google.com/file/d/1oDDf2DIQJVCBku822nwQiQkgy2oN9GJ4/view?usp=sharing" // Replace with your resume file path
+              href="https://drive.google.com/file/d/1HFMV8eGlCaM2cHgXyDlwbghhlb6L4OLm/view?usp=sharing" // Replace with your resume file path
               download
               className="font_body text-2xl px-6 py-3 bg-[#ff5c8d] text-white font-semibold rounded-md shadow-md hover:bg-[#c772f0] transition"
             >
@@ -97,7 +98,7 @@ const Banner = () => {
 
               {/* <a
 
-              href="https://drive.google.com/uc?export=download&id=1oDDf2DIQJVCBku822nwQiQkgy2oN9GJ4" // Direct download link
+              href="https://drive.google.com/file/d/1HFMV8eGlCaM2cHgXyDlwbghhlb6L4OLm/view?usp=sharing" // Direct download link
               className="font_body text-2xl px-6 py-3 bg-[#ff5c8d] text-white font-semibold rounded-md shadow-md hover:bg-[#c772f0] transition"
             >
               Download Resume
@@ -150,7 +151,7 @@ const Banner = () => {
               </a>
               {/* Facebook */}
               {/* <a
-              href="https://www.facebook.com/shifat.199"
+              href="www.linkedin.com/in/m-imon"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 transition-transform transform hover:scale-110"
@@ -163,7 +164,7 @@ const Banner = () => {
             </a> */}
               {/* X (Twitter) */}
               {/* <a
-              href="https://x.com/Fardilshifat"
+              href="www.linkedin.com/in/m-imon"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 transition-transform transform hover:scale-110"

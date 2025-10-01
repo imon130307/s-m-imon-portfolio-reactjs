@@ -23,7 +23,7 @@ const About = () => {
     className="md:w-1/2 flex justify-center mt-8 md:mt-0">
         <Lottie animationData={animationData} loop={true} className="w-80 md:w-96" />
       </div>
-      {/* Left Section: Text */}
+      {/*----- Left Section: Text ------*/}
       <div 
         data-aos="zoom-in"
       className="md:w-1/2 space-y-6">
@@ -40,14 +40,14 @@ const About = () => {
           Beyond coding, I am passionate about <span className="text-[#ff5c8d]">networking</span> and fostering connections with individuals to expand my knowledge and gain diverse perspectives. This has inspired me to share my experiences by <span className="text-[#ff5c8d]">creating content on YouTube</span> about web development and <span className="text-[#ff5c8d]">writing posts on Facebook</span> to engage with the tech community.
         </p>
         <p className="text-lg md:text-xl leading-relaxed">
-          When I’m not coding, I enjoy playing <span className="text-[#ff5c8d]">table tennis</span>, which helps me unwind and stay focused. I believe in balancing work with hobbies that fuel creativity and innovation.
+          When I’m not coding, I enjoy <span className="text-[#ff5c8d]">Nature Walks, Forest Bathing, Exploring Waterfalls, Beachcombing, Exploring Caves</span>, which helps me unwind and stay focused. I believe in balancing work with hobbies that fuel creativity and innovation.
         </p>
         <p className="text-lg md:text-xl leading-relaxed">
           I'm always open to collaborating on exciting projects and contributing to meaningful ideas. Let’s connect and create something amazing together!
         </p>
       </div>
 
-      {/* Right Section: Image/Animation */}
+      {/*------- Right Section: Image/Animation --------*/}
       
     </div>
   )

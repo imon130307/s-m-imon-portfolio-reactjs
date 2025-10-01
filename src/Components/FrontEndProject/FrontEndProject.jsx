@@ -23,7 +23,7 @@ const FrontEndProject = () => {
     Aos.init({ duration: 1000, once: true }); // AOS initialization
   }, []);
 
-  // Show more projects
+  // ---------Show more projects--------
   const showMoreProjects = () => {
     setVisibleProjects(projects.length); // Show all projects when clicked
   };
@@ -38,7 +38,7 @@ const FrontEndProject = () => {
           Front-End <span className="text-[#ff5c8d]">Projects</span>
         </h2>
 
-      {/* Grid layout with 3 columns */}
+      {/* --------Grid layout with 3 columns ---------*/}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.slice(0, visibleProjects).map((project, index) => (
           <div
@@ -75,7 +75,7 @@ const FrontEndProject = () => {
         ))}
       </div>
 
-      {/* Show more button */}
+      {/* --------Show more button ---------*/}
       {visibleProjects < projects.length && (
         <div className="text-center mt-8">
           <button

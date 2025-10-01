@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+//-------- Import Swiper styles-------
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// Import required modules
+// -----Import required modules----
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 const ReactProject = () => {
@@ -98,7 +98,7 @@ const ReactProject = () => {
           ))}
         </Swiper>
 
-        {/* Navigation buttons below the cards */}
+        {/* ---------Navigation buttons below the cards-------- */}
         <div className="flex justify-center gap-4 mt-6">
           <button className="prev  text-[#ff5c8d] p-2 rounded-full">
             <svg

@@ -64,7 +64,7 @@ const FullStackProjects = () => {
              
               className="flex flex-col  lg:flex-row  items-center bg-[#1a1a1d] rounded-xl  overflow-hidden"
             >
-              {/* Left Section: Image */}
+              {/* ----------Left Section: Image -----------*/}
               <div className="w-full h-full lg:w-1/2">
                 <img
                   src={project.imageURL}
@@ -73,7 +73,7 @@ const FullStackProjects = () => {
                 />
               </div>
 
-              {/* Right Section: Details */}
+              {/* -----------Right Section: Details---------- */}
               <div className=" p-6 flex flex-col justify-around h-full text-white w-full lg:w-1/2">
              
              <div className="flex flex-col gap-2">
@@ -95,7 +95,7 @@ const FullStackProjects = () => {
 
 
               <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 md:flex md:flex-wrap gap-1 md:gap-4">
-                {/* Live Site Button */}
+                {/* --------Live Site Button -----------*/}
                 <a
                   href={project.liveLink}
                   target="_blank"
@@ -105,7 +105,7 @@ const FullStackProjects = () => {
                   Live Site
                 </a>
 
-                {/* Client Code Button */}
+                {/* -------------Client Code Button---------- */}
                 <a
                   href={project.githubLink_client_side}
                   target="_blank"
@@ -115,7 +115,7 @@ const FullStackProjects = () => {
                   Client Code
                 </a>
 
-                {/* Server Code Button */}
+                {/* -------Server Code Button ----------*/}
                 {project.githubLink_server_side && (
                   <a
                     href={project.githubLink_server_side}
@@ -127,7 +127,7 @@ const FullStackProjects = () => {
                   </a>
                 )}
 
-                {/* See Details Button */}
+                {/* -----------See Details Button -----------*/}
                 <button
                   onClick={() => openModal(project)}
                   className="bg-[#111111] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#333333] transition flex items-center justify-center"
@@ -142,7 +142,7 @@ const FullStackProjects = () => {
           ))}
         </div>
 
-        {/* Load More Button */}
+        {/* --------Load More Button -----------*/}
         {visibleProjects < projects.length && (
           <div className="text-center mt-8">
             <button
@@ -155,7 +155,7 @@ const FullStackProjects = () => {
         )}
       </div>
 
-      {/* Modal */}
+      {/*---------- Modal -----------*/}
       {selectedProject && (
         <Dialog
           open={isModalOpen}

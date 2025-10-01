@@ -29,7 +29,7 @@ const Experience = () => {
     },
     {
       role: "Undergraduate Assistant",
-      company: "United International University",
+      company: "PUST",
       date: "01-01-2024 - 01-07-2024",
       description: [
         "Boosted students' confidence in their abilities through continuous positive reinforcement.",
@@ -41,7 +41,7 @@ const Experience = () => {
     },
     {
       role: "Center for International Affairs and Cooperation (CIAC)",
-      company: "United International University",
+      company: "PUST",
       date: "01-02-2022 - Current",
       description: [
         "Facilitated international exposure for students, faculty, and staff.",

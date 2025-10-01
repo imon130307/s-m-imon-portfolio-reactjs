@@ -62,7 +62,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        {/* ------Contact Info-------*/}
         <div className="space-y-4">
           <h4 className="text-2xl font-semibold text-[#ff5c8d]">Contact Me</h4>
           <ul className="space-y-2">
@@ -71,7 +71,7 @@ const Footer = () => {
             <li className="text-gray-400">Location: Dhaka, Bangladesh</li>
           </ul>
 
-          {/* Social Media Links */}
+          {/*------ Social Media Links --------*/}
           <div className="flex gap-4 mt-4">
             <a
                href="https://github.com/imon130307"
@@ -90,7 +90,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             {/* <a
-              href="https://x.com/Fardilshifat"
+              href="www.linkedin.com/in/m-imon"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#ff5c8d] transition text-xl"
@@ -98,7 +98,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-               href="https://www.facebook.com/shifat.199"
+               href="www.linkedin.com/in/m-imon"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#ff5c8d] transition text-xl"

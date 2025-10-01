@@ -63,9 +63,9 @@ const Education = () => {
         <span className="text-[#ff5c8d]">Education</span> Journey
       </h2>
 
-      {/* Content */}
+      {/*-------------Content -------------*/}
       <div className="flex flex-col-reverse md:flex-row items-center gap-16">
-        {/* Left Section: Education List */}
+        {/* -----------Left Section: Education List -------------*/}
         <div 
           data-aos="fade-right"
         className="md:w-1/2 space-y-8">
@@ -75,10 +75,10 @@ const Education = () => {
               key={item.id}
               className="hover:shadow-[#ff5c8d] hover:scale-105 hover:shadow-lg transition-all duration-75 flex items-center gap-6 bg-[#1a1a1d] p-6 rounded-lg "
             >
-              {/* Icon */}
+              {/* ------Icon ---------*/}
               <div className="flex-shrink-0">{item.icon}</div>
 
-              {/* Details */}
+              {/* ----------Details --------------*/}
               <div>
                 <h3 className="text-xl font-semibold">{item.title}</h3>
                 <p className="text-lg">{item.institution}</p>
@@ -90,7 +90,7 @@ const Education = () => {
           ))}
         </div>
 
-        {/* Right Section: Animation */}
+        {/* -----Right Section: Animation-------- */}
         <div className="md:w-1/2 flex justify-center">
           <Lottie animationData={educationAnimation}    speed={0.1} loop={true} className="w-80 md:w-full" />
         </div>

@@ -199,7 +199,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Optional: Lottie Animation */}
+      {/*------ Optional: Lottie Animation-------- */}
     </div>
   )
 }
