@@ -26,11 +26,11 @@ const About = () => {
       {/*----- Left Section: Text ------*/}
       <div 
         data-aos="zoom-in"
-      className="md:w-1/2 space-y-6">
+      className="md:w-1/2 space-y-0.5">
         <h2 className="text-4xl md:text-5xl font-bold">
           About <span className="text-[#ff5c8d]">Me</span>
         </h2>
-        <p className="text-lg md:text-xl leading-relaxed">
+        <p className="text-lg md:text-xl leading-relaxed space-y-0">
           Hello! I'm a <span className="text-[#ff5c8d]">Non-Computer Science graduate</span> but have a fervent passion for coding, particularly within the realm of <span className="text-[#ff5c8d]">web programming</span>. I thrive on creating digital experiences that are not only visually appealing but also highly functional and efficient.
         </p>
         <p className="text-lg md:text-xl leading-relaxed">

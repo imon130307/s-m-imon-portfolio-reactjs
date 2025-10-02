@@ -75,7 +75,7 @@ const FrontEndProject = () => {
         ))}
       </div>
 
-      {/* --------Show more button ---------*/}
+      {/* ------Show more button -------*/}
       {visibleProjects < projects.length && (
         <div className="text-center mt-8">
           <button

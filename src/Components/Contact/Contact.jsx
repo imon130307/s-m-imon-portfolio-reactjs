@@ -178,7 +178,7 @@ const Contact = () => {
               >
                 <FaWhatsapp className="text-4xl text-[#ff5c8d]" />
                 <div>
-                  <p className="text-sm text-gray-300">01516143040</p>
+                  <p className="text-sm text-gray-300">+8801516143040</p>
                 </div>
               </div>
               <div

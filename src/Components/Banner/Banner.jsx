@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../../../public/imon6.PNG";
+import profile from "../../../public/imon19.PNG";
 import { Spinner } from "@material-tailwind/react";
 
 const Banner = () => {
@@ -179,11 +179,11 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Right Section: Profile Image */}
+        {/* -----Right Section: Profile Image ------*/}
         <div className="flex-1 relative">
           <div className="flex justify-center items-center h-full w-full">
             <motion.div
-              animate={{ scale: [1, 1.05, 1] }}
+              animate={{ scale: [1.25, 1, 1.25] }}
               transition={{
                 duration: 10,
                 ease: "easeInOut",

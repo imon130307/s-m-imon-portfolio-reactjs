@@ -135,7 +135,7 @@ const Skills = () => {
    
       <Marquee
         gradient={false}
-        speed={50}
+        speed={70}
         pauseOnHover={true}
         className="flex "
       >

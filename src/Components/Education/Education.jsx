@@ -24,7 +24,7 @@ const Education = () => {
     },
     {
       id: 2,
-      icon: <FaUniversity className="text-4xl text-[#ff5c8d]" />,
+      icon: <MdOutlineSchool className="text-4xl text-[#ff5c8d]" />,
       title: "Honors in Mathematics",
       institution: "Pabna University of Science and Technology",
       // grade: "CGPA: 3.04",
@@ -38,14 +38,14 @@ const Education = () => {
       // grade: "GPA: 5.00",
       // year: "2011",
     },
-    {
-      id: 4,
-      icon: <MdOutlineSchool className="text-4xl text-[#ff5c8d]" />,
-      title: "Secondary School Certificate (SSC)",
-      institution: "Chandrapara Sultania High School,Faridpur",
-      // grade: "GPA: 4.81",
-      // year: "2011",
-    },
+    // {
+    //   id: 4,
+    //   icon: <FaSchool className="text-4xl text-[#ff5c8d]" />,
+    //   title: "Secondary School Certificate (SSC)",
+    //   institution: "Chandrapara Sultania High School,Faridpur",
+    //   // grade: "GPA: 4.81",
+    //   // year: "2011",
+    // },
   ];
 
 
